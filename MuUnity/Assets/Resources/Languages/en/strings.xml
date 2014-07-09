@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Ok">Ok</string>
+	<string name="Loading">Loading</string>
+	<string name="NotFoundDataFiles">Not found data file: {0}</string>
+	<string name="ErrorCreateMap">Map is failed, {0} is null</string>
+	<string name="ErrorCreateObject">Map object not found, file: {0}</string>
+	<string name="ErrorCreatePlayer">Payer file ({0}) not found</string>
+	<string name="SettingsFOG">FOG</string>
+	<string name="SettingsObjects">Show objects</string>
+	<string name="SettingsTarget">Target movement</string>
+	<string name="SettingsGrass">Render grass</string>
+	<string name="SettingsApplyNextScene">This parametr apply on the next loading map</string>
+	<string name="SettingsObjectAnims">Animation objects</string>
+	<string name="SettingsGrassAnims">Animation grass</string>
+	
+</resources>

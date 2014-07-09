@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Sources\MuMap\MapTerrain.cs">
+    <Files>
+      <File FileName="Assets\Sources\Configs\Config.cs" Line="12" Column="37" />
+      <File FileName="Assets\Sources\MuGlobal\Global.cs" Line="26" Column="3" />
+      <File FileName="Assets\Sources\Main\Scene.cs" Line="7" Column="35" />
+      <File FileName="Assets\Sources\MuUtil\Debug.cs" Line="17" Column="4" />
+      <File FileName="Assets\Sources\Main\World.cs" Line="30" Column="3" />
+      <File FileName="Assets\Sources\Main\Loading.cs" Line="15" Column="22" />
+      <File FileName="Assets\Sources\MuPacket\MuEncDec.cs" Line="355" Column="53" />
+      <File FileName="Assets\Sources\Configs\Settings.cs" Line="12" Column="29" />
+      <File FileName="Assets\Sources\MuMap\MapTest.cs" Line="20" Column="17" />
+      <File FileName="Assets\Sources\MuGlobal\GlobalData.cs" Line="12" Column="42" />
+      <File FileName="Assets\Sources\MuMap\Map.cs" Line="22" Column="42" />
+      <File FileName="Assets\Sources\MuMap\MapTerrain.cs" Line="43" Column="35" />
+      <File FileName="Assets\Sources\MuUtil\Storage.cs" Line="41" Column="41" />
+      <File FileName="Assets\Sources\Configs\WorldConfig.cs" Line="75" Column="82" />
+      <File FileName="Assets\Sources\MuUtil\Map.cs" Line="184" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

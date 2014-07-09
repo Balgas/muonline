@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E4368118-BEEF-4310-C6E2-66BA90BC5C92}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor 4.3/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor 4.3/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Sources\Configs\Config.cs" />
+     <Compile Include="Assets\Sources\Configs\Lang.cs" />
+     <Compile Include="Assets\Sources\Configs\Settings.cs" />
+     <Compile Include="Assets\Sources\Configs\Sounds.cs" />
+     <Compile Include="Assets\Sources\Configs\WorldConfig.cs" />
+     <Compile Include="Assets\Sources\Effect\MoveTarget.cs" />
+     <Compile Include="Assets\Sources\Main\Loading.cs" />
+     <Compile Include="Assets\Sources\Main\SMDObject.cs" />
+     <Compile Include="Assets\Sources\Main\Scene.cs" />
+     <Compile Include="Assets\Sources\Main\SystemSettings.cs" />
+     <Compile Include="Assets\Sources\Main\UI.cs" />
+     <Compile Include="Assets\Sources\Main\World.cs" />
+     <Compile Include="Assets\Sources\Main\WorldScene.cs" />
+     <Compile Include="Assets\Sources\MuGlobal\Global.cs" />
+     <Compile Include="Assets\Sources\MuGlobal\GlobalData.cs" />
+     <Compile Include="Assets\Sources\MuMap\AI\AtlansDoor.cs" />
+     <Compile Include="Assets\Sources\MuMap\AI\Crater.cs" />
+     <Compile Include="Assets\Sources\MuMap\AI\GateDoor.cs" />
+     <Compile Include="Assets\Sources\MuMap\AI\Interaction.cs" />
+     <Compile Include="Assets\Sources\MuMap\AI\Roof.cs" />
+     <Compile Include="Assets\Sources\MuMap\AI\SimpleDoor.cs" />
+     <Compile Include="Assets\Sources\MuMap\Data\MapData.cs" />
+     <Compile Include="Assets\Sources\MuMap\Data\MapDataGround.cs" />
+     <Compile Include="Assets\Sources\MuMap\Data\MapDataHeight.cs" />
+     <Compile Include="Assets\Sources\MuMap\Data\MapDataObjects.cs" />
+     <Compile Include="Assets\Sources\MuMap\Data\MapDataZones.cs" />
+     <Compile Include="Assets\Sources\MuMap\Map.cs" />
+     <Compile Include="Assets\Sources\MuMap\MapEffects.cs" />
+     <Compile Include="Assets\Sources\MuMap\MapLighting.cs" />
+     <Compile Include="Assets\Sources\MuMap\MapObjects.cs" />
+     <Compile Include="Assets\Sources\MuMap\MapSound.cs" />
+     <Compile Include="Assets\Sources\MuMap\MapTerrain.cs" />
+     <Compile Include="Assets\Sources\MuMap\MapTest.cs" />
+     <Compile Include="Assets\Sources\MuMap\MuCoord.cs" />
+     <Compile Include="Assets\Sources\MuMap\Players.cs" />
+     <Compile Include="Assets\Sources\MuMap\WorldController.cs" />
+     <Compile Include="Assets\Sources\MuPacket\MuEncDec.cs" />
+     <Compile Include="Assets\Sources\MuPacket\Packet.cs" />
+     <Compile Include="Assets\Sources\MuPacket\Structurs.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\Character.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PathFinder.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\Player.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerBody.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerCamera.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerController.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerData.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerDetail.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerSound.cs" />
+     <Compile Include="Assets\Sources\MuPlayer\PlayerState.cs" />
+     <Compile Include="Assets\Sources\MuUI\Components\UIComponent.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Audio.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Data.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Debug.cs" />
+     <Compile Include="Assets\Sources\MuUtil\File.cs" />
+     <Compile Include="Assets\Sources\MuUtil\GO.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Loom.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Map.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Player.cs" />
+     <Compile Include="Assets\Sources\MuUtil\Storage.cs" />
+     <None Include="Assets\Resources\Languages\en\strings.xml" />
+     <None Include="Assets\Resources\Shaders\ModTransparent.shader" />
+     <None Include="Assets\Resources\Shaders\TerrainShader.shader" />
+     <None Include="Assets\Resources\Shaders\Mobile-Particle-MultiplyColored.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
