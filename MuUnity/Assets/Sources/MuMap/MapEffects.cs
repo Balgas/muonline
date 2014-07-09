@@ -31,7 +31,7 @@ namespace MuMap {
 			}
 			
 			GameObject target = Util.GO.CreateAdvancedObject ( "MoveTarget", go.transform, "Effect/MoveTargetPosEffect", "Effect/Animations/MoveTargetPosController", terrainHeight, Vector3.zero, Util.GO.Layer.Effects, 0.7f );
-			target.AddComponent<Effect.MoveTarget>();
+			target.AddComponent<MuEffects.MoveTarget>();
 		}
 		
 	}

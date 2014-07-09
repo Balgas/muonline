@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace Effect {
+namespace MuEffects {
 	
 	public class MoveTarget : MonoBehaviour {
 		

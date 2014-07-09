@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E4368118-BEEF-4310-C6E2-66BA90BC5C92}</ProjectGuid>
+	<ProjectGuid>{6AC82C5B-DF05-8D41-6E18-00F727AC15EF}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor 4.3/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor 4.3/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -51,14 +51,10 @@
      <Compile Include="Assets\Sources\Configs\Settings.cs" />
      <Compile Include="Assets\Sources\Configs\Sounds.cs" />
      <Compile Include="Assets\Sources\Configs\WorldConfig.cs" />
-     <Compile Include="Assets\Sources\Effect\MoveTarget.cs" />
      <Compile Include="Assets\Sources\Main\Loading.cs" />
-     <Compile Include="Assets\Sources\Main\SMDObject.cs" />
-     <Compile Include="Assets\Sources\Main\Scene.cs" />
      <Compile Include="Assets\Sources\Main\SystemSettings.cs" />
-     <Compile Include="Assets\Sources\Main\UI.cs" />
      <Compile Include="Assets\Sources\Main\World.cs" />
-     <Compile Include="Assets\Sources\Main\WorldScene.cs" />
+     <Compile Include="Assets\Sources\MuEffects\MoveTarget.cs" />
      <Compile Include="Assets\Sources\MuGlobal\Global.cs" />
      <Compile Include="Assets\Sources\MuGlobal\GlobalData.cs" />
      <Compile Include="Assets\Sources\MuMap\AI\AtlansDoor.cs" />
@@ -82,6 +78,9 @@
      <Compile Include="Assets\Sources\MuMap\MuCoord.cs" />
      <Compile Include="Assets\Sources\MuMap\Players.cs" />
      <Compile Include="Assets\Sources\MuMap\WorldController.cs" />
+     <Compile Include="Assets\Sources\MuObjects\SMDObject.cs" />
+     <Compile Include="Assets\Sources\MuObjects\Scene.cs" />
+     <Compile Include="Assets\Sources\MuObjects\WorldScene.cs" />
      <Compile Include="Assets\Sources\MuPacket\MuEncDec.cs" />
      <Compile Include="Assets\Sources\MuPacket\Packet.cs" />
      <Compile Include="Assets\Sources\MuPacket\Structurs.cs" />
@@ -96,6 +95,7 @@
      <Compile Include="Assets\Sources\MuPlayer\PlayerSound.cs" />
      <Compile Include="Assets\Sources\MuPlayer\PlayerState.cs" />
      <Compile Include="Assets\Sources\MuUI\Components\UIComponent.cs" />
+     <Compile Include="Assets\Sources\MuUI\UI.cs" />
      <Compile Include="Assets\Sources\MuUtil\Audio.cs" />
      <Compile Include="Assets\Sources\MuUtil\Data.cs" />
      <Compile Include="Assets\Sources\MuUtil\Debug.cs" />
