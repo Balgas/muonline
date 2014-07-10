@@ -26,11 +26,32 @@ public class Structurs : MonoBehaviour {
 		Wall = 5, //в городе, нельзя ходить
 		Hole = 12, //пропасть, нельзя ходить, прозрачные тили
 		Hole2 = 8, //пропасть, нельзя ходить, прозрачные тили
-		Hole3 = 13,
+		Hole3 = 13,	
 		Unknown = 2,
 		BCBridgeStart = 36,
 		BCBridgeMiddle = 32,
 		BCBridgeFinish = 40
 		
 	}
+
+	public enum ItemType:byte {
+		Swords = 0,
+		Axes = 1,
+		Maces = 2,
+		Spears = 3,
+		Bows = 4,
+		Staffs = 5,
+		Shields = 6,
+		Helms = 7,
+		Armors = 8,
+		Pants = 9,
+		Gloves = 10,
+		Boots = 11,
+		Items = 12,
+		MagicItems = 13,
+		SimpleItems = 14,
+		Scrolls = 15
+	}
+
+
 }

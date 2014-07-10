@@ -21,17 +21,13 @@ namespace MuPlayer {
 				animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
 				animator.applyRootMotion = false;
 			}
-			
-			
 		}
 		
 		public void Play(string state, float speed = 1f) {
 			animator.speed = Config.AnimationSpeedWorldObjects*speed;
 			animator.Play (state, 0, 1f);
 		}
-		
-		
-		
+
 		
 		
 	}

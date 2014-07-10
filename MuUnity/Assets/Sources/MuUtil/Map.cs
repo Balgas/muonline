@@ -184,6 +184,10 @@ namespace Util {
 		public static bool isGrass(MuMap.Grass[] grasses, byte tile) {
 			return (tile<grasses.Length && grasses[tile]!=null);	
 		}
+
+		public static bool isSafeZone(byte zone) {
+			return zone==(byte)Structurs.TileType.Safe;
+		}
 		
 		//там где можно ходить
 		public static bool isWalkZone(byte zone) {

@@ -18,7 +18,14 @@ namespace Util {
 			Character,
 			World
 		}
-		
+
+		public static void DestroyChildrens ( GameObject parent ) {
+			if (parent == null) return;
+			while (parent.transform.childCount>0) {
+				GameObject.DestroyImmediate(parent.transform.GetChild(0));
+			}
+		}
+
 		public static GameObject Create ( string name, Transform parent ) {
 			GameObject go = new GameObject ( name );
 			SetParent ( go.transform, parent );

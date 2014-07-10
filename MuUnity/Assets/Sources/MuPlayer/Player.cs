@@ -74,7 +74,7 @@ namespace MuPlayer {
 				Data.Position = world.map.terrain.GetHeight(value);
 				
 				//проверяем сейфзону
-				State.isSafe = world.players.zones[value.x,value.y]==(byte)Structurs.TileType.Safe;
+				State.isSafe = Util.Map.isSafeZone ( world.players.zones[value.x,value.y] );
 				
 				if (EventStartMoveTo!=null)
 					EventStartMoveTo(Data);
@@ -114,8 +114,10 @@ namespace MuPlayer {
 			while (CurrentStateOfPath<LengthPath) {
 				
 				MuCoord newcoord = CurrentPath[CurrentStateOfPath];
-				
+
+				//устанавливает поворот
 				SetDir (Util.Map.GetDirectionFloat(Coord, newcoord));
+				//устанавливает координату
 				Coord = newcoord;
 				
 				float Speed = 300;
@@ -129,7 +131,8 @@ namespace MuPlayer {
 				else {
 					CurrentStateOfPath++;
 				}
-				
+
+				//новая длина пути
 				LengthPath = CurrentPath.Length;
 				
 			}
